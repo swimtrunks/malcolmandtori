@@ -127,6 +127,11 @@ header > h1 {
   top: 400px;
 }
 
+#top-image {
+  width: 100%;
+  height: auto;
+}
+
 #mid-photo {
   height: 700px;
   padding-left: 4rem;
@@ -190,6 +195,7 @@ header > h1 {
 
 #form-photo {
   height: 35rem;
+  width: auto;
 }
 
 .page-content {
