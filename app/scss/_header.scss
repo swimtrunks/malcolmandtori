@@ -3,9 +3,8 @@ header{
     position: sticky;
     height: 3.4rem;
     padding:2.5rem;
-    font-size:1.1rem;
+    font-size:14px;
     font-family: $mainFont;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
 
     
     >h1{
@@ -29,12 +28,18 @@ header{
         padding-left:80px;
         font-family: $headings;
         color: $deepNavy;
-        line-height: 4rem;
+        line-height: 3.5rem;
         font-weight: bold;
         font-size: 3.2rem;
         >span{
             font-size: 4.5rem;
         }
+    }
+    #names{
+        font-size:3.5rem;
+        background: -webkit-linear-gradient($dustBlush, $deepNavy);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     #subtitle{
         display: none;
@@ -43,14 +48,14 @@ header{
         font-family: $mainFont;
         font-size: 1rem;
     }
-    #lines{
+    #styline{
         display: block;
         position: absolute;
         top:360px;
         left:145px;
         height: .5rem;
         width: 10rem;
-        background-color: $blush;
+        background-color: $dustBlush;
     }
     #underline{
         filter: brightness(75%);
@@ -62,3 +67,4 @@ header{
         top: 400px;
     }
 }
+
