@@ -1,0 +1,41 @@
+html{
+    margin:auto;
+    font-size:100%;
+    box-sizing: border-box;
+    max-width: 1215px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: $sandBisque;
+  
+   
+}
+
+a{
+    text-decoration: none;
+    color:$deepNavy;
+}
+
+.flex{
+    display: flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+      }
+      
+      &-jc-c {
+        justify-content: center;
+      }
+      
+      &-ai-c {
+        align-items: center;
+      }
+      &-mobile{
+        flex-direction: column;
+      }
+}
+  
