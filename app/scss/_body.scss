@@ -1,5 +1,62 @@
 #mid-photo{
-    height: 800px;
+    height: 700px;
     padding-left:4rem;
     padding-top:4rem;
+    padding-bottom: 4rem;
+    opacity: 0;
+    
+}
+#mid-block{
+    background-color: $deepNavy;
+}
+
+#about-header{
+    font-family: $headings;
+    color:$dustBlush;
+    font-size:3.5rem;
+    background: -webkit-linear-gradient(#eee,$dustBlush);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about-section{
+    padding:1.4rem 3rem;
+    margin-left:1.4rem;
+    border-radius: 1rem;
+    color:white;
+
+}
+
+#transition-block{
+    margin:0;
+    padding:0;
+    display: block;
+    height: 20rem;
+    background: linear-gradient($deepNavy,$sandBisque);
+}
+
+#faqstitle{
+    display: block;
+    text-align: center;
+    font-family: $headings;
+    background: -webkit-linear-gradient(#eee,$dustBlush);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+}
+#faqBlock{
+    display: block;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    margin:1rem 20rem;
+    background-color:$dustBlush;
+    color:white;
+
+    >h1{
+        font-family: $headings;
+    }
+}
+#form-photo{
+    height:35rem;
 }
