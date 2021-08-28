@@ -1,21 +1,18 @@
-We are getting married!
+"Malcolm and Tori" : Wedding Website
 
-I wanted to develop a page for our wedding on this year. 
+<h2>We are getting married!</h2>
 
-The goal (as always) is to make a fully responsive page for our wedding this year. 
-I have already gotten most of the styling down but I'm still working on getting the colors perfect.
+<h3>Objective:</h3>
+I wanted to design and build a website from scratch for our wedding. I have built most of the page already but I have decided to rebuild it using React.js. I implemented animation by having an image that fades in when it comes into frame. 
 
-I wanted to use css/sass because I love organizing the stylesheets for ease of use, jQuery because I wanted more 
-experience with that library(and its pretty simple to implement in anything) and bootstrap for the form just so I could
-have more experience modifying code that I didnt write and being able to implement Bootstrap templates into my own pages.
+<h3>What's Next:</h3>
+Like I stated earlier, I will rebuild this in React and restructure and redesign the page. I will also be building a backend for capturing visitor info and messages from a "Contact Us" form. I currently used a placeholder form that uses bootstrap but I will rebuild the form itself so that I can get rid of the unreadable markup. 
 
-Still debating if I want to have it be one page, or multiple. 
-I could just have the links at the top scroll to the index on click, but I might just try to do both that and having other pages.
+<h3>Technologies:</h3>
 
-Did desktop first, next time ill work with mobile first mentaility because its always easier to do it that way.
+- HTML
+- CSS/SASS
+- JavaScript/ jQuery
 
-Biggest Challenge:
-Designing in browser. wanted to try to design as I go and it has slowed me a decent amount (not to mention most design 
-decisions must be ran by tori as well). Overall its going well, just taking a little longer to wrap up than expected.
-
+![Screen Shot 2021-08-28 at 11 55 30 AM](https://user-images.githubusercontent.com/25188844/131223644-3a12eb26-a126-49d9-aa64-cd9c5c748e2a.png)
 
